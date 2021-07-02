@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="endUserProfile.PWA_EndUserLogin" />
+			<class name="endUserProfile.PWA1_EndUserProfile" />
+			<class name="endUserProfile.PWA2_EndUserEditProfile" />         
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

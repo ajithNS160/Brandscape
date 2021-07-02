@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="admin_ManageUser.BWS1_Login" />
+			
+			<class name="admin_ManageUser.BWS3_ViewUser" />
+			<class name="admin_ManageUser.BWS4_EditUser" />
+			<class name="admin_ManageUser.BWS5_SearchUser" />
+			<class name="admin_ManageUser.BWS6_FilterUser" />
+			<class name="admin_ManageUser.BWS7_DeleteUser" />
+			<class name="admin_ManageUser.BWS8_Logout" />
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
